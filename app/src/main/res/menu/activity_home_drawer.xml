@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="Celcius">
+        <menu>
+            <item
+                android:id="@+id/nav_Ckelvin"
+                android:icon="@drawable/thermometer"
+                android:title="Kelvin" />
+            <item
+                android:id="@+id/nav_Cfahrenheit"
+                android:icon="@drawable/thermometer"
+                android:title="Fahrenheit" />
+        </menu>
+    </item>
+
+    <item android:title="Fahrenheit">
+        <menu>
+            <item
+                android:id="@+id/nav_FCelcius"
+                android:icon="@drawable/thermometer"
+                android:title="Celcius" />
+            <item
+                android:id="@+id/nav_FKelvin"
+                android:icon="@drawable/thermometer"
+                android:title="Kelvin" />
+        </menu>
+    </item>
+ <item android:title="Kelvin">
+     <menu>
+         <item
+             android:id="@+id/nav_Kcelcius"
+             android:icon="@drawable/thermometer"
+             android:title="Celcius" />
+         <item
+             android:id="@+id/nav_Kfahrenheit"
+             android:icon="@drawable/thermometer"
+             android:title="Fahrenheit"/>
+     </menu>
+ </item>
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
